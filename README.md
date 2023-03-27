@@ -43,5 +43,6 @@ for문으로 각각 스택의 데이터를 삭제하는 pop작업 실행, stackL
 stackList와 stackArgs에 들어간 데이터들을 return으로 출력 
 출력되는 데이터가 없다고 뜨는지 확인.
 
+![report실행화면](https://user-images.githubusercontent.com/128966509/227825244-7d34767a-79aa-417a-8d96-6088a9d6fe55.png)
 
 
