@@ -15,6 +15,16 @@ LinkedList 클래스=콜렉션 사용 없이 링크드리스트 구현을 위한
 -LinkTail 링크드리스트의 가장 뒤의 데이터를 return. pop 작업을 위해 이용.
 -return 링크드 리스트 내부의 데이터들을 출력.
 
+
+Array 클래스-배열 사용 스택 구현 클래스.
+-push 스택에 데이터를 집어 넣는 작업.
+-pop 스택의 데이터를 삭제하는 작업.
+-arrHead 배열의 가장 앞의 데이터를 return.
+-arrTail 배열의 가장 뒤의 데이터를 return. 
+-return 배열 내부의 데이터들을 출력.
+-leng 배열의 길이 return.
+
+
 -main-
 
 stackArgs=문자열 배열 스택.
@@ -25,13 +35,13 @@ parking=각각 스택에 무작위의 숫자를 부여해 줄 랜덤 함수.
 
 for문으로 각각 스택에 무작위의 숫자를 10회 부여하는 push작업 실행, 각 스택에 들어가는 데이터를 출력
 
-stackList는 return으로 출력, stackArgs는 for문으로 출력.
+stackList와 stackArgs에 들어간 데이터들을 return으로 출력
 출력되는 데이터들의 위에서 들어간 데이터와 동일한지 확인.
 
 for문으로 각각 스택의 데이터를 삭제하는 pop작업 실행, stackList는 문자열 함수 key에 LinkTail로 링크드리스트의 마지막 데이터를 받아서 pop으로 해당 데이터를 삭제 지시, stackArgs는 끝에서부터 데이터를 공백으로 변경.
 
-stackList는 return으로 출력, stackArgs는 for문으로 출력.
+stackList와 stackArgs에 들어간 데이터들을 return으로 출력 
 출력되는 데이터가 없다고 뜨는지 확인.
 
-![실행화면](https://user-images.githubusercontent.com/128966509/227817956-5f614f40-1409-4f5b-804c-51171d9f116e.png)
+
 
